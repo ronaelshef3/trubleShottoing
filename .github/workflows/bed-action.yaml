@@ -10,7 +10,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latesu
+    runs-on: ubuntu-latest
     env:
       SSH_KEY: ${{ secrets.MISSING_SECRET }}
     steps:
