@@ -26,4 +26,4 @@ jobs:
 
       - name: finish
         run: |
-          echo "Amazin g!"
+          echo "Amaz in g!"
