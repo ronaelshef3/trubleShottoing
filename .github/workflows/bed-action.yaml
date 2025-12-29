@@ -10,7 +10,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu1-latest
+    runs-on: ubunt-latest
     env:
       SSH_KEY: ${{ secrets.MISSING_SECRET }}
     steps:
