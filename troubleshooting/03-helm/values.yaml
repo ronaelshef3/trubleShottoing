@@ -1,0 +1,8 @@
+replicas: 2
+image:
+  repository: nginx
+  tag: "123.4"
+  pullPolicy: IfNotPresent
+
+service:
+  port: 80

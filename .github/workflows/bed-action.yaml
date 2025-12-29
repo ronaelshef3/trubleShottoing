@@ -6,7 +6,7 @@ on:
 
   push:
     branches:
-      - all
+      - master
 
 jobs:
   deploy:
